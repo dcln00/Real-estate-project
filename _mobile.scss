@@ -1,0 +1,154 @@
+$breakpoint-tablet: 900px;
+$breakpoint-mobile: 600px;
+
+@media screen and (max-width:$breakpoint-mobile) { 
+    
+    #subheader {
+        display: none;
+    }
+
+    header {
+        height:50vh;
+
+        h1 {
+            position:absolute;
+            bottom:24px;
+            left:12px;
+            font-family: $heading-font;
+            color:$heading-color;
+            font-size:40px;
+            letter-spacing: $heading-ltr-spacing;
+            line-height: $heading-line-height;
+            z-index:20;
+        }
+    }
+    nav {
+        display:none;
+    }
+
+    #about {
+        margin-top:0px;
+        margin-bottom:15px;
+
+        #about-us-photo {
+            height:30vh;
+            width:100vw;
+        }
+
+        #about-info {
+            margin: 20px;
+
+            h6{
+                margin-top: 215px;
+            }
+
+            p{
+                padding:0;
+                text-align: justify;
+            }
+
+            .learn-more{
+                margin-top:5px;
+            }
+        }
+    }
+
+    #projects {
+
+        #protitle {
+            text-align:left;
+            margin: 0 20px;
+            position:relative;
+    
+            hr{
+              width:20%;  
+              position:absolute;
+              left:0;
+            }
+        }
+
+        #portfolio {
+            width:100vw;
+            margin-bottom:40px;
+        }
+    }
+
+    #shop {
+        
+        flex-direction: column;
+
+        #shopdesc{
+           
+
+            p {
+                font-size: 14px;
+                width:100%;
+                text-align:justify;
+            }
+        }
+
+        #portnbtns {
+            margin: 0 20px;
+            height:50px;
+
+            #portphoto1 {
+                width:50%;
+                
+                left:-10px;
+                top:0;
+            }
+            #portphoto2 {
+                width:50%;
+                
+                right:-10px;
+                top:0;
+            }
+    
+            #portbn {
+                width:100%;
+                bottom:-20px;
+                left:0;
+                right:0;
+                margin:0 auto;
+            }
+        }
+    }
+
+    footer {
+        margin-top:550px;
+
+        #inner-footer{
+            flex-direction: column;
+            padding: 0 20px;
+            width:100vw;
+            overflow-y:scroll;
+            height:800px;
+            top:-400px;
+
+            #cntctfrm {
+                margin-right:0;
+                margin-top:20px;
+            }
+
+            #misc{
+
+
+                #map{
+                    width:100%;
+                }
+                
+                p.pte{
+                    float:left;
+                }
+                
+
+                .footer-icons {
+                    clear:left;
+                    margin-top:40px;
+                }
+            }
+        }
+    }
+
+
+}
