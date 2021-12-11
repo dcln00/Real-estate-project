@@ -28,11 +28,12 @@ $breakpoint-mobile: 600px;
 
     #about {
         margin-top:0px;
-        margin-bottom:15px;
+        margin-bottom:65px;
 
         #about-us-photo {
             height:30vh;
             width:100vw;
+            margin-bottom: 30px;
         }
 
         #about-info {
@@ -76,6 +77,7 @@ $breakpoint-mobile: 600px;
     #shop {
         
         flex-direction: column;
+        margin-left: 0px;
 
         #shopdesc{
            
