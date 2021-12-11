@@ -13,6 +13,10 @@
     scrollbar-width: thin;
 }
 
+html, body {
+    text-rendering:optimizeLegibility;
+}
+
 /*For sticky sidebar*/
 .sticky {
     position: fixed;
@@ -546,6 +550,8 @@ footer {
                 padding: 10px  0;
                 color: $text-color;
                 width:49%;
+                -webkit-appearance: none;
+                border-radius: 0;
             }
             
             textarea {
@@ -556,6 +562,8 @@ footer {
                 padding-top: 15px;
                 width:100%;
                 color:#fff;
+                -webkit-appearance: none;
+                border-radius: 0;
             }
             
             textarea[placeholder] {
